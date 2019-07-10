@@ -65,6 +65,8 @@
     <Compile Include="Assets\Scripts\Bouncer.cs" />
     <Compile Include="Assets\Scripts\Collecttables Scripts\Diamond.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\LevelMenuCtrl.cs" />
+    <Compile Include="Assets\Scripts\MainMenuCtrl.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\SpiderBullet.cs" />
     <Compile Include="Assets\Scripts\SpiderJumper.cs" />
