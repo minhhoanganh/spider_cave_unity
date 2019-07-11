@@ -8,6 +8,7 @@ public class SpiderBullet : MonoBehaviour
     {
         if(target.tag == "Player")
         {
+            GameObject.Find("Gameplay Ctrl").GetComponent<GamePlayCtrl>().PlayerDied();
             Destroy(target.gameObject);
             Destroy(gameObject);
         }
