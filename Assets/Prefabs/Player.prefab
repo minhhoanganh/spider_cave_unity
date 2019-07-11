@@ -162,5 +162,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveForce: 20
-  jumbForce: 200
+  jumbForce: 300
   maxVelocity: 4

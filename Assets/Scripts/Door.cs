@@ -46,6 +46,7 @@ public class Door : MonoBehaviour
     {
         if(target.tag == "Player")
         {
+            GameObject.Find("Gameplay Ctrl").GetComponent<GamePlayCtrl>().PlayerDied();
             Debug.Log("Finish");
         }
     }
